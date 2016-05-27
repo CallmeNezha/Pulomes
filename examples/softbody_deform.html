@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftBody Deformation Simulation</title>
+    <style>
+        body {
+            color: #fff;
+            font-family:Monospace;
+            font-size:13px;
+            text-align:center;
+            font-weight: bold;
+            background-color: #000;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            font-size: 150%;
+            color: lightskyblue;
+            position: fixed;
+            float: inherit;
+            top: 0px;
+            width: 85%;
+            text-align: center;
+            z-index: 100;
+        }
+        a { color: mediumpurple; }
+        #stats { position: absolute; top:0; left: 0 }
+        #stats #fps { background: transparent !important }
+        #stats #fps #fpsText { background: black !important; color: white !important }
+        #stats #fps #fpsGraph { display: none }
+
+        #loading {
+            background: #0af;
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 170%;
+            display: block;
+            z-index: 200;
+        }
+    </style>
+</head>
+<body>
+<div id="info">
+    <p><a href="">NeZha's web</a> SoftBody deformation based on Shape Matching<br/><span style="color: chartreuse">Left drag:Rotate, Scroll:Zoom</p></span>
+</div>
+<div id="stats-output"></div>
+<div id="webgl-output"></div>
+<div id="loading">Loading... please wait...</div>
+
+<script style="text/javascript" src="../js/libs/Detector.js"></script>
+<script>
+    if ( !Detector.webgl )
+    {
+        var glnode = document.getElementById("glshow");
+        glnode.parentNode.removeChild(glnode);
+        Detector.addGetWebGLMessage();
+    }
+</script>
+<div id="glshow">
+    <script style="text/javascript" src="../js/libs/three.js"></script>
+    <script style="text/javascript" src="../js/libs/stats.min.js"></script>
+    <script style="text/javascript" src="../js/libs/dat.gui.min.js"></script>
+    <script style="text/javascript" src="../js/libs/OrbitControls.js"></script>
+    <script style="text/javascript" src="../js/libs/STLLoader.js"></script>
+    <script style="text/javascript" src="../js/softbody_deform.js"></script>
+</div>
+</body>
+</html>

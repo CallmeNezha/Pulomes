@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projective Based Cloth Basic Simulation</title>
+    <style>
+        body {
+            color: #fff;
+            font-family:Monospace;
+            font-size:13px;
+            text-align:center;
+            font-weight: bold;
+            background-color: #000;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            font-size: 150%;
+            color: lightskyblue;
+            position: fixed;
+            float: inherit;
+            top: 0px;
+            width: 85%;
+            text-align: center;
+            z-index: 100;
+        }
+        a { color: mediumpurple; }
+        #stats { position: absolute; top:0; left: 0 }
+        #stats #fps { background: transparent !important }
+        #stats #fps #fpsText { background: black !important; color: white !important }
+        #stats #fps #fpsGraph { display: none }
+
+        #loading {
+            background: #0af;
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 170%;
+            display: block;
+            z-index: 200;
+        }
+    </style>
+</head>
+<body>
+<div id="info">
+    <p><a href="">NeZha's web</a> Projective method is a fast&robust parallel algorithm framework, this demo is far better with GPU than CPU
+        <br/><span style="color: chartreuse">Left drag:Rotate, Scroll:Zoom</span>
+    </p>
+</div>
+<div id="stats-output"></div>
+<div id="webgl-output"></div>
+<div id="loading">Loading... please wait...</div>
+
+<script style="text/javascript" src="../js/libs/Detector.js"></script>
+<script>
+    if ( !Detector.webgl )
+    {
+        var glnode = document.getElementById("glshow");
+        glnode.parentNode.removeChild(glnode);
+        Detector.addGetWebGLMessage();
+    }
+</script>
+<div id="glshow">
+    <script src="http://cdn.bootcss.com/three.js/r76/three.min.js"></script>
+    <script src="http://cdn.bootcss.com/stats.js/r16/Stats.js"></script>
+    <script src="http://cdn.bootcss.com/dat-gui/0.5.1/dat.gui.js"></script>
+    <script src="http://cdn.bootcss.com/numeric/1.2.6/numeric.js"></script>
+    <script src="../js/libs/OrbitControls.js"></script>
+    <script src="../js/projective_cloth_basic.js"></script>
+</div>
+</body>
+</html>
