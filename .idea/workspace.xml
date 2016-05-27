@@ -21,6 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="jsPlayground.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/jsPlayground.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,45 +41,145 @@
                 <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="ProjectiveBD.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ProjectiveBD.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="302" column="19" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PBDApp_2.coffee" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/PBDApp_2.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22053675">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lightTest.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lightTest.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+              <folding />
+>>>>>>> parent of 1334813... little change
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="cloth.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/cloth.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2654249">
               <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+=======
+      <file leaf-file-name="ProjectiveBD.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/ProjectiveBD.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.178572">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+>>>>>>> parent of 1334813... little change
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ProjectiveBD.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ProjectiveBD.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.107143">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+=======
+      <file leaf-file-name="jsPlayground.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/jsPlayground.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.464286">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+>>>>>>> parent of 1334813... little change
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="wooly mammoth skeleton.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/wooly mammoth skeleton.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="10.965517">
               <caret line="286" column="26" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+=======
       <file leaf-file-name="ShapeMatch.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/ShapeMatch.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.928572">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+>>>>>>> parent of 1334813... little change
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBD.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/PBD.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state vertical-scroll-proportion="-14.928572">
               <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+=======
+            <state vertical-scroll-proportion="-16.285715">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PBDApp_2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/PBDApp_2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/three.js-master/three.js-master/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="65.14286">
+              <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+>>>>>>> parent of 1334813... little change
               <folding />
             </state>
           </provider>
@@ -119,9 +220,14 @@
         <option value="$PROJECT_DIR$/js/bbb.coffee" />
         <option value="$PROJECT_DIR$/js/ProjectiveTest.coffee" />
         <option value="$PROJECT_DIR$/js/jsPlayground.coffee" />
+        <option value="$PROJECT_DIR$/js/ClothApp.coffee" />
         <option value="$PROJECT_DIR$/js/lightTest.coffee" />
+        <option value="$PROJECT_DIR$/js/PBD_2.coffee" />
+        <option value="$PROJECT_DIR$/js/PBDApp.coffee" />
+        <option value="$PROJECT_DIR$/js/PBDVolume.coffee" />
         <option value="$PROJECT_DIR$/js/ProjectiveBD.coffee" />
         <option value="$PROJECT_DIR$/examples/index.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/js/PBD_2.coffee" />
         <option value="$PROJECT_DIR$/js/PBDApp.coffee" />
         <option value="$PROJECT_DIR$/js/ClothApp.coffee" />
@@ -143,6 +249,9 @@
         <option value="$PROJECT_DIR$/examples/PBD.html" />
         <option value="$PROJECT_DIR$/js/PBDApp_2.coffee" />
         <option value="$PROJECT_DIR$/coffee/PBDApp_2.coffee" />
+=======
+        <option value="$PROJECT_DIR$/js/PBDApp_2.coffee" />
+>>>>>>> parent of 1334813... little change
       </list>
     </option>
   </component>
@@ -152,7 +261,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1672" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
@@ -245,6 +354,7 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+<<<<<<< HEAD
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -282,6 +392,8 @@
             <PATH_ELEMENT USER_OBJECT="examples">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+=======
+>>>>>>> parent of 1334813... little change
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -312,7 +424,14 @@
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Node.js.PBDApp_2.coffee">
+=======
+  <component name="RunManager" selected="JavaScript Debug.PBD.html">
+    <configuration default="false" name="cloth.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pulomes/examples/cloth.html">
+      <method />
+    </configuration>
+>>>>>>> parent of 1334813... little change
     <configuration default="false" name="PBD.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Pulomes/examples/PBD.html">
       <method />
     </configuration>
@@ -420,8 +539,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1672" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
+=======
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="1" />
+    <editor active="true" />
+>>>>>>> parent of 1334813... little change
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16785714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2020" y="64" width="299" height="994" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -597,21 +721,71 @@
         <state />
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/models/utf8/fica/fica_ao_lod0.js">
+=======
+    <entry file="file://$PROJECT_DIR$/examples/cloth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/numeric.js">
+>>>>>>> parent of 1334813... little change
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/models/utf8/fica/fica_ao_lod1.js">
+=======
+    <entry file="file://$PROJECT_DIR$/js/PBDVolume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="552" column="0" selection-start-line="552" selection-start-column="0" selection-end-line="552" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ProjectiveBD.js">
+>>>>>>> parent of 1334813... little change
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/models/utf8/fica/fica_ao_wheel_lod0.js">
+=======
+    <entry file="http://cdn.bootcss.com/three.js/r76/three.min.js">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/three.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5069767">
+          <caret line="2087" column="13" selection-start-line="2087" selection-start-column="13" selection-end-line="2087" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ClothApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="286" column="0" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsPlayground.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+>>>>>>> parent of 1334813... little change
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
@@ -633,6 +807,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/libs/Detector.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -643,25 +818,75 @@
             <marker date="1463845464000" expanded="true" signature="1457:1467" placeholder="..." />
             <marker date="1463845464000" expanded="true" signature="1554:1564" placeholder="..." />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/js/ClothApp.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.766666">
+          <caret line="196" column="56" selection-start-line="196" selection-start-column="56" selection-end-line="196" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/index.html">
+    <entry file="file://$PROJECT_DIR$/js/jsPlayground.coffee">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PBD_2.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.766666">
+          <caret line="328" column="56" selection-start-line="328" selection-start-column="56" selection-end-line="328" selection-end-column="56" />
+          <folding />
+>>>>>>> parent of 1334813... little change
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ProjectiveTest.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-14.928572">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PBDVolume.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.333333">
+          <caret line="412" column="36" selection-start-line="412" selection-start-column="35" selection-end-line="412" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PBDApp.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.4">
+          <caret line="248" column="56" selection-start-line="248" selection-start-column="56" selection-end-line="248" selection-end-column="56" />
+>>>>>>> parent of 1334813... little change
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/jsPlayground.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-5.428571">
           <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="302" column="19" selection-start-line="302" selection-start-column="19" selection-end-line="302" selection-end-column="19" />
+>>>>>>> parent of 1334813... little change
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/examples/PBD.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.357142">
@@ -669,20 +894,71 @@
           <folding>
             <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/examples/jsPlayground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.464286">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/three.js-master/three.js-master/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="65.14286">
+          <caret line="222" column="24" selection-start-line="222" selection-start-column="24" selection-end-line="222" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/ProjectiveBD.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.107143">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state vertical-scroll-proportion="-10.178572">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/ShapeMatch.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.928572">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> parent of 1334813... little change
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/examples/ProjectiveBD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/lightTest.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+>>>>>>> parent of 1334813... little change
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/PBD.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="-14.928572">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding />
@@ -693,14 +969,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="10.965517">
           <caret line="286" column="26" selection-start-line="286" selection-start-column="12" selection-end-line="286" selection-end-column="26" />
+=======
+        <state vertical-scroll-proportion="-16.285715">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/PBDApp_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="210" column="28" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="28" />
+>>>>>>> parent of 1334813... little change
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/examples/cloth.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2654249">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/js/PBDApp_2.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22053675">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+>>>>>>> parent of 1334813... little change
           <folding />
         </state>
       </provider>

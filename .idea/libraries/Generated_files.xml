@@ -2,24 +2,14 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/coffee/ProjectiveTest.js" />
-        <item url="file://$PROJECT_DIR$/coffee/PBDApp.js" />
         <item url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
         <item url="file://$PROJECT_DIR$/js/cloth_basic.js" />
-        <item url="file://$PROJECT_DIR$/coffee/cloth_basic.js" />
-        <item url="file://$PROJECT_DIR$/js/lightTest.js" />
-        <item url="file://$PROJECT_DIR$/js/PBD_2.js" />
+        <item url="file://$PROJECT_DIR$/js/light_test.js" />
         <item url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
-        <item url="file://$PROJECT_DIR$/coffee/ProjectiveBD.js" />
-        <item url="file://$PROJECT_DIR$/js/PBDVolume.js" />
-        <item url="file://$PROJECT_DIR$/coffee/jsPlayground.js" />
-        <item url="file://$PROJECT_DIR$/js/jsPlayground.js" />
-        <item url="file://$PROJECT_DIR$/coffee/PBD_2.js" />
-        <item url="file://$PROJECT_DIR$/js/PBDApp.js" />
-        <item url="file://$PROJECT_DIR$/js/PBDApp_2.js" />
-        <item url="file://$PROJECT_DIR$/coffee/lightTest.js" />
-        <item url="file://$PROJECT_DIR$/coffee/PBDApp_2.js" />
-        <item url="file://$PROJECT_DIR$/coffee/PBDVolume.js" />
+        <item url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
+        <item url="file://$PROJECT_DIR$/js/projective_test.js" />
+        <item url="file://$PROJECT_DIR$/js/softbody_deform.js" />
+        <item url="file://$PROJECT_DIR$/js/projective_cloth_basic.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -30,26 +20,44 @@
       <root url="file://$PROJECT_DIR$/js/PBDVolumn.js" />
       <root url="file://$PROJECT_DIR$/js/PBDVolumn.js" />
       <root url="file://$PROJECT_DIR$/js/bbb.js" />
-      <root url="file://$PROJECT_DIR$/js/ClothApp.js" />
-      <root url="file://$PROJECT_DIR$/js/ClothApp.js" />
       <root url="file://$PROJECT_DIR$/coffee/ProjectiveTest.js" />
       <root url="file://$PROJECT_DIR$/coffee/PBDApp.js" />
-      <root url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
-      <root url="file://$PROJECT_DIR$/js/cloth_basic.js" />
       <root url="file://$PROJECT_DIR$/coffee/cloth_basic.js" />
-      <root url="file://$PROJECT_DIR$/js/lightTest.js" />
-      <root url="file://$PROJECT_DIR$/js/PBD_2.js" />
-      <root url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
       <root url="file://$PROJECT_DIR$/coffee/ProjectiveBD.js" />
-      <root url="file://$PROJECT_DIR$/js/PBDVolume.js" />
       <root url="file://$PROJECT_DIR$/coffee/jsPlayground.js" />
-      <root url="file://$PROJECT_DIR$/js/jsPlayground.js" />
       <root url="file://$PROJECT_DIR$/coffee/PBD_2.js" />
-      <root url="file://$PROJECT_DIR$/js/PBDApp.js" />
-      <root url="file://$PROJECT_DIR$/js/PBDApp_2.js" />
       <root url="file://$PROJECT_DIR$/coffee/lightTest.js" />
       <root url="file://$PROJECT_DIR$/coffee/PBDApp_2.js" />
       <root url="file://$PROJECT_DIR$/coffee/PBDVolume.js" />
+      <root url="file://$PROJECT_DIR$/coffee/ProjectiveTest.js" />
+      <root url="file://$PROJECT_DIR$/coffee/PBDApp.js" />
+      <root url="file://$PROJECT_DIR$/coffee/cloth_basic.js" />
+      <root url="file://$PROJECT_DIR$/coffee/ProjectiveBD.js" />
+      <root url="file://$PROJECT_DIR$/coffee/jsPlayground.js" />
+      <root url="file://$PROJECT_DIR$/coffee/PBD_2.js" />
+      <root url="file://$PROJECT_DIR$/coffee/lightTest.js" />
+      <root url="file://$PROJECT_DIR$/coffee/PBDApp_2.js" />
+      <root url="file://$PROJECT_DIR$/coffee/PBDVolume.js" />
+      <root url="file://$PROJECT_DIR$/js/ClothApp.js" />
+      <root url="file://$PROJECT_DIR$/js/jsPlayground.js" />
+      <root url="file://$PROJECT_DIR$/js/lightTest.js" />
+      <root url="file://$PROJECT_DIR$/js/PBDApp.js" />
+      <root url="file://$PROJECT_DIR$/js/PBD_2.js" />
+      <root url="file://$PROJECT_DIR$/js/ClothApp.js" />
+      <root url="file://$PROJECT_DIR$/js/jsPlayground.js" />
+      <root url="file://$PROJECT_DIR$/js/PBDApp_2.js" />
+      <root url="file://$PROJECT_DIR$/js/PBDApp.js" />
+      <root url="file://$PROJECT_DIR$/js/PBD_2.js" />
+      <root url="file://$PROJECT_DIR$/js/PBDVolume.js" />
+      <root url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
+      <root url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
+      <root url="file://$PROJECT_DIR$/js/cloth_basic.js" />
+      <root url="file://$PROJECT_DIR$/js/light_test.js" />
+      <root url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
+      <root url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
+      <root url="file://$PROJECT_DIR$/js/projective_test.js" />
+      <root url="file://$PROJECT_DIR$/js/softbody_deform.js" />
+      <root url="file://$PROJECT_DIR$/js/projective_cloth_basic.js" />
     </CLASSES>
     <SOURCES />
   </library>
