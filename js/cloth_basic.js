@@ -7,7 +7,7 @@
   TIMESTEP = 18 / 1000;
 
   TIMESTEP_SQ = TIMESTEP * TIMESTEP;
-
+<*ss *>
   pins = [0, 40];
 
   wind = new THREE.Vector3(0, 5, 15);
