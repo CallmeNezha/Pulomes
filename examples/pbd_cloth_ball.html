@@ -54,9 +54,12 @@
 <script>
     if ( !Detector.webgl )
     {
-        var glnode = document.getElementById("glshow");
-        glnode.parentNode.removeChild(glnode);
+        document.getElementById("loading").style.display = 'none';
         Detector.addGetWebGLMessage();
+        if (window.stop)
+            window.stop();
+        else
+            document.execCommand("Stop");
     }
 </script>
 <div id="glshow">

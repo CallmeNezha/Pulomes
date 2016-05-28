@@ -51,12 +51,15 @@
 <div id="loading">Loading</div>
 
 <script style="text/javascript" src="../js/libs/Detector.js"></script>
-<script>
+<script style="text/javascript">
     if ( !Detector.webgl )
     {
-        var glnode = document.getElementById("glshow");
-        glnode.parentNode.removeChild(glnode);
+        document.getElementById("loading").style.display = 'none';
         Detector.addGetWebGLMessage();
+        if (window.stop)
+            window.stop();
+        else
+            document.execCommand("Stop");
     }
 </script>
 <div id="glshow">
