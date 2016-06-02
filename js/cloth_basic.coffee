@@ -221,7 +221,7 @@ initScene = ->
 stats = initStats()
 document.getElementById("stats-output")?.appendChild(stats.domElement)
 {scene, camera, renderer} = initScene()
-document.body.appendChild(renderer.domElement)
+document.getElementById("webgl-output")?.appendChild(renderer.domElement)
 
 
 #scene.add( new THREE.AmbientLight( 0x666666 ) )

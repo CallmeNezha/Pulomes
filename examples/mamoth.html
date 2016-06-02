@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mammoth</title>
+    <style>
+        body {
+            color: #fff;
+            font-family:Monospace;
+            font-size:13px;
+            text-align:center;
+            font-weight: bold;
+            background-color: #000;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            font-size: 150%;
+            color: lightblue;
+            position: fixed;
+            float: inherit;
+            left: 17%;
+            top: 0px;
+            width: 70%;
+            text-align: center;
+            z-index: 100;
+        }
+        a { color: mediumpurple; }
+        #stats-output { position: absolute; top:0; left: 0; z-index: 100;}
+
+        #loading {
+            background: #0af;
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 170%;
+            display: block;
+            z-index: 200;
+        }
+        #wiki {
+            position: absolute;
+            width: 33%;
+            float: left;
+            left: 0;
+            top: 0px;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="info">
+    <p><a href="">NeZha's web</a> Mammoth  2500 B.C.
+    <br/><span style="color: forestgreen">LeftDrag:Rotate,RightDrag:Pan,Scroll:Zoom</span>
+    </p>
+</div>
+<div id="loading">Loading model, please wait...</div>
+<div id="stats-output"></div>
+<div id="webgl-output"></div>
+<iframe id="wiki" src="https://en.wikipedia.org/wiki/Mammoth"></iframe>
+
+<script style="text/javascript" src="../js/libs/Detector.js"></script>
+<script>
+    if ( !Detector.webgl )
+    {
+        document.getElementById("loading").style.display = 'none';
+        Detector.addGetWebGLMessage();
+        if (window.stop)
+            window.stop();
+        else
+            document.execCommand("Stop");
+    }
+</script>
+<div id="glshow">
+    <script src="http://cdn.bootcss.com/three.js/r76/three.min.js"></script>
+
+    <script src="../js/shaders/SSAOShader.js"></script>
+    <script src="../js/shaders/CopyShader.js"></script>
+
+    <script src="../js/postprocessing/EffectComposer.js"></script>
+    <script src="../js/postprocessing/RenderPass.js"></script>
+    <script src="../js/postprocessing/ShaderPass.js"></script>
+    <script src="../js/postprocessing/MaskPass.js"></script>
+
+    <script src="http://cdn.bootcss.com/stats.js/r16/Stats.js"></script>
+    <script src="http://cdn.bootcss.com/dat-gui/0.5.1/dat.gui.js"></script>
+    <script style="text/javascript" src="../js/libs/OrbitControls.js"></script>
+    <script src="../js/loaders/ctm/lzma.js"></script>
+    <script src="../js/loaders/ctm/ctm.js"></script>
+    <script src="../js/loaders/ctm/CTMLoader.js"></script>
+    <script style="text/javascript" src="../js/mamoth.js"></script>
+</div>
+</body>
+</html>

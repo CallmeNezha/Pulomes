@@ -2,12 +2,11 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
         <item url="file://$PROJECT_DIR$/js/cloth_basic.js" />
         <item url="file://$PROJECT_DIR$/js/light_test.js" />
-        <item url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
         <item url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
         <item url="file://$PROJECT_DIR$/js/projective_test.js" />
+        <item url="file://$PROJECT_DIR$/js/mamoth.js" />
         <item url="file://$PROJECT_DIR$/js/softbody_deform.js" />
         <item url="file://$PROJECT_DIR$/js/projective_cloth_basic.js" />
       </sourceFilesUrls>
@@ -51,11 +50,12 @@
       <root url="file://$PROJECT_DIR$/js/PBDVolume.js" />
       <root url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
       <root url="file://$PROJECT_DIR$/js/ProjectiveBD.js" />
+      <root url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
       <root url="file://$PROJECT_DIR$/js/cloth_basic.js" />
       <root url="file://$PROJECT_DIR$/js/light_test.js" />
-      <root url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
       <root url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
       <root url="file://$PROJECT_DIR$/js/projective_test.js" />
+      <root url="file://$PROJECT_DIR$/js/mamoth.js" />
       <root url="file://$PROJECT_DIR$/js/softbody_deform.js" />
       <root url="file://$PROJECT_DIR$/js/projective_cloth_basic.js" />
     </CLASSES>
