@@ -1,3 +1,9 @@
+#//              ______    _____            _________       _____   _____
+#//            /     /_  /    /            \___    /      /    /__/    /
+#//           /        \/    /    ___        /    /      /            /    ___
+#//          /     / \      /    /\__\      /    /___   /    ___     /    /   \
+#//        _/____ /   \___ /    _\___     _/_______ / _/___ / _/___ /    _\___/\_
+#//        revised on 6/3/2016  All rights reserved by @NeZha
 
 vertexShader =
   '''
@@ -44,7 +50,7 @@ initScene = ->
   camera.position.z = 300
   camera.position.multiplyScalar(1.7)
   camera.lookAt(scene.position)
-  renderer = new THREE.WebGLRenderer(antialias: off)
+  renderer = new THREE.WebGLRenderer(antialias: on)
   renderer.setPixelRatio(window.devicePixelRatio)
   renderer.setClearColor(0x000000)
   renderer.setSize(window.innerWidth, window.innerHeight)
@@ -67,10 +73,10 @@ orbitControl.maxPolarAngle = Math.PI/2
 
 
 orbitControl.center = new THREE.Vector3(0,150,0)
-translate = (new THREE.Vector3(-1,0,0)).transformDirection(camera.matrix)
-translate.multiplyScalar(250)
-camera.position.add(translate)
-orbitControl.center.add(translate)
+#translate = (new THREE.Vector3(-1,0,0)).transformDirection(camera.matrix)
+#translate.multiplyScalar(250)
+#camera.position.add(translate)
+#orbitControl.center.add(translate)
 
 #scene.fog = new THREE.Fog( 0xffffff, 1, 5000 )
 #scene.fog.color.setHSL( 0.6, 0, 1 )
@@ -227,14 +233,20 @@ effectComposer.addPass( ssaoPass )
 
 renderModeChange = (value) ->
   switch value
-    when '0' then ssaoPass.uniforms['onlyAO'].value = no
-    when '1' then ssaoPass.uniforms['onlyAO'].value = yes
+    when '0'
+      postprocessing.ssao_enabled = yes
+      ssaoPass.uniforms['onlyAO'].value = no
+    when '1'
+      postprocessing.ssao_enabled = no
+      ssaoPass.uniforms['onlyAO'].value = no
+    when '2'
+      postprocessing.ssao_enabled = yes
+      ssaoPass.uniforms['onlyAO'].value = yes
     else console.error("Not define renderModeChange type: #{value}")
 
 
-#valuegui = new dat.GUI()
-#gui.add( postprocessing, "ssao_enabled" ).onChange()
-#gui.add( postprocessing, "render_mode", { framebuffer: 0, onlyAO: 1 } ).onChange( renderModeChange ).listen()
+gui = new dat.GUI()
+gui.add( postprocessing, "render_mode", { ssao: 0, orignal: 1, aobuffer: 2 } ).onChange( renderModeChange ).listen()
 
 
 render = ->

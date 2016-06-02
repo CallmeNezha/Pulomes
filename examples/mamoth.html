@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--#//              ______    _____            _________       _____   _____-->
+    <!--#//            /     /_  /    /            \___    /      /    /__/    /-->
+    <!--#//           /        \/    /    ___        /    /      /            /    ___-->
+    <!--#//          /     / \      /    /\__\      /    /___   /    ___     /    /   \-->
+    <!--#//        _/____ /   \___ /    _\___     _/_______ / _/___ / _/___ /    _\___/\_-->
+    <!--#//        revised on 6/3/2016  All rights reserved by @NeZha-->
     <meta charset="UTF-8">
     <title>Mammoth</title>
     <style>
@@ -40,26 +46,17 @@
             display: block;
             z-index: 200;
         }
-        #wiki {
-            position: absolute;
-            width: 33%;
-            float: left;
-            left: 0;
-            top: 0px;
-            height: 100%;
-        }
     </style>
 </head>
 <body>
 <div id="info">
-    <p><a href="">NeZha's web</a> Mammoth  2500 B.C.
-    <br/><span style="color: forestgreen">LeftDrag:Rotate,RightDrag:Pan,Scroll:Zoom</span>
+    <p><a href="#">NeZha's web</a> Mammoth  2500 B.C.<a href="#" onclick="open_wiki_window()">(wiki)</a>
+        <br/><span style="color: forestgreen">LeftDrag:Rotate,RightDrag:Pan,Scroll:Zoom</span>
     </p>
 </div>
 <div id="loading">Loading model, please wait...</div>
 <div id="stats-output"></div>
 <div id="webgl-output"></div>
-<iframe id="wiki" src="https://en.wikipedia.org/wiki/Mammoth"></iframe>
 
 <script style="text/javascript" src="../js/libs/Detector.js"></script>
 <script>
@@ -91,6 +88,11 @@
     <script src="../js/loaders/ctm/ctm.js"></script>
     <script src="../js/loaders/ctm/CTMLoader.js"></script>
     <script style="text/javascript" src="../js/mamoth.js"></script>
+    <script>
+        function open_wiki_window() {
+            window.open("https://en.wikipedia.org/wiki/Mammoth", "_blank", "toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=600, height=400")
+        }
+    </script>
 </div>
 </body>
 </html>
