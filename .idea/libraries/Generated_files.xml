@@ -4,6 +4,7 @@
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/js/cloth_basic.js" />
         <item url="file://$PROJECT_DIR$/js/light_test.js" />
+        <item url="file://$PROJECT_DIR$/js/fluids_beta.js" />
         <item url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
         <item url="file://$PROJECT_DIR$/js/projective_test.js" />
         <item url="file://$PROJECT_DIR$/js/mamoth.js" />
@@ -53,6 +54,7 @@
       <root url="file://$PROJECT_DIR$/js/ProjectiveTest.js" />
       <root url="file://$PROJECT_DIR$/js/cloth_basic.js" />
       <root url="file://$PROJECT_DIR$/js/light_test.js" />
+      <root url="file://$PROJECT_DIR$/js/fluids_beta.js" />
       <root url="file://$PROJECT_DIR$/js/pbd_cloth_ball.js" />
       <root url="file://$PROJECT_DIR$/js/projective_test.js" />
       <root url="file://$PROJECT_DIR$/js/mamoth.js" />

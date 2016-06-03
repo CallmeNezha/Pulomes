@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--#//              ______    _____            _________       _____   _____-->
+    <!--#//            /     /_  /    /            \___    /      /    /__/    /-->
+    <!--#//           /        \/    /    ___        /    /      /            /    ___-->
+    <!--#//          /     / \      /    /\__\      /    /___   /    ___     /    /   \-->
+    <!--#//        _/____ /   \___ /    _\___     _/_______ / _/___ / _/___ /    _\___/\_-->
+    <!--#//        revised on 6/3/2016  All rights reserved by @NeZha-->
+    <meta charset="UTF-8">
+    <title>Cloth Basic Simulation</title>
+    <style>
+        body {
+            color: #fff;
+            font-family:Monospace;
+            font-size:13px;
+            text-align:center;
+            font-weight: bold;
+            background-color: #000;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        #info {
+            font-size: 150%;
+            color: midnightblue;
+            position: fixed;
+            float: inherit;
+            top: 0px;
+            width: 70%;
+            text-align: center;
+            z-index: 100;
+        }
+        a { color: mediumpurple; }
+        #stats-output { position: absolute; top:0; left: 0;}
+
+        #loading {
+            background: #0af;
+            color: white;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            font-size: 170%;
+            display: block;
+            z-index: 200;
+        }
+    </style>
+</head>
+<body>
+<div id="info"><p><a href="">NeZha's web</a> Cloth simulation based on PBD method</p></div>
+<div id="stats-output"></div>
+<div id="webgl-output"></div>
+<div id="loading">Loading</div>
+<div id="notSupported" style="display:none">Sorry your graphics card + browser does not support hardware instancing</div>
+
+
+<script style="text/javascript" src="../js/libs/Detector.js"></script>
+<script style="text/javascript">
+    if ( !Detector.webgl )
+    {
+        document.getElementById("loading").style.display = 'none';
+        Detector.addGetWebGLMessage();
+        if (window.stop)
+            window.stop();
+        else
+            document.execCommand("Stop");
+    }
+</script>
+<div id="glshow">
+    <script src="http://cdn.bootcss.com/three.js/r76/three.min.js"></script>
+    <script src="http://cdn.bootcss.com/stats.js/r16/Stats.js"></script>
+    <script src="http://cdn.bootcss.com/dat-gui/0.5.1/dat.gui.js"></script>
+    <script style="text/javascript" src="../js/libs/OrbitControls.js"></script>
+    <script style="text/javascript" src="../js/fluids_beta.js"></script>
+</div>
+</body>
+</html>
